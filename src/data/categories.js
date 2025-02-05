@@ -1,115 +1,115 @@
 export const bagCategories = [
   {
-    name: "Kadın Çantaları",
+    name: "Women's Bags",
     items: [
-      "El Çantaları",
-      "Sırt Çantaları",
-      "Omuz Çantaları",
-      "Kol Çantaları",
-      "Bel Çantaları",
+      "Hand Bags",
+      "Backpacks",
+      "Shoulder Bags",
+      "Clutch Bags",
+      "Waist Bags",
     ],
   },
   {
-    name: "Erkek Çantaları",
-    items: ["Sırt Çantaları", "Evrak Çantaları", "Bel Çantaları"],
+    name: "Men's Bags",
+    items: ["Backpacks", "Briefcases", "Waist Bags"],
   },
   {
-    name: "Seyahat Çantaları",
-    items: ["Valizler", "Seyahat Sırt Çantaları", "Kabin Boy Çantalar"],
+    name: "Travel Bags",
+    items: ["Suitcases", "Travel Backpacks", "Cabin Size Bags"],
   },
   {
-    name: "Spor Çantaları",
-    items: ["Yoga Çantaları", "Spor Çantaları"],
+    name: "Sports Bags",
+    items: ["Yoga Bags", "Sports Bags"],
   },
   {
-    name: "Çanta Aksesuarları",
-    items: ["Çanta Askıları", "Çanta İç Organizatörleri", "Çanta Kılıfları"],
+    name: "Bag Accessories",
+    items: ["Bag Straps", "Bag Organizers", "Bag Covers"],
   },
 ];
 
 export const beltCategories = [
   {
-    name: "Erkek Kemeri",
-    items: ["Deri Kemeler", "Tokalı Kemeler", "Casual Kemeler"],
+    name: "Men's Belts",
+    items: ["Leather Belts", "Belted Belts", "Casual Belts"],
   },
   {
-    name: "Kadın Kemeri",
-    items: ["Deri Kemeler", "İnce Kemeler", "İki Renkli Kemeler"],
+    name: "Women's Belts",
+    items: ["Leather Belts", "Thin Belts", "Two-Tone Belts"],
   },
   {
-    name: "Spor Kemeri",
-    items: ["Elastik Kemeler", "Sporcu Kemeri"],
+    name: "Sports Belts",
+    items: ["Elastic Belts", "Athletic Belts"],
   },
   {
-    name: "Çocuk Kemeri",
-    items: ["Eğlenceli Tasarımlar", "Deri Kemeler"],
+    name: "Kids Belts",
+    items: ["Fun Designs", "Leather Belts"],
   },
 ];
 
 export const walletCategories = [
   {
-    name: "Erkek Cüzdanları",
+    name: "Men's Wallets",
     items: [
-      "Deri Cüzdanlar",
-      "Kartlıklar",
-      "Minimalist Cüzdanlar",
-      "Fermuarlı Cüzdanlar",
+      "Leather Wallets",
+      "Cardholders",
+      "Minimalist Wallets",
+      "Zipper Wallets",
     ],
   },
   {
-    name: "Kadın Cüzdanları",
-    items: ["Uzun Cüzdanlar", "Kısa Cüzdanlar", "Kartlıklar"],
+    name: "Women's Wallets",
+    items: ["Long Wallets", "Short Wallets", "Cardholders"],
   },
   {
-    name: "Cüzdan Aksesuarları",
-    items: ["Cüzdan Zinciri", "Cüzdan Çantası"],
+    name: "Wallet Accessories",
+    items: ["Wallet Chains", "Wallet Bags"],
   },
 ];
 
 export const watchCategories = [
   {
-    name: "Erkek Saatleri",
+    name: "Men's Watches",
     items: [
-      "Kol Saatleri",
-      "Akıllı Saatler",
-      "Spor Saatleri",
-      "Deri Kayışlı Saatler",
+      "Wrist Watches",
+      "Smart Watches",
+      "Sports Watches",
+      "Leather Strap Watches",
     ],
   },
   {
-    name: "Kadın Saatleri",
-    items: ["Takı Saatleri", "Analog Saatler", "Akıllı Saatler"],
+    name: "Women's Watches",
+    items: ["Jewelry Watches", "Analog Watches", "Smart Watches"],
   },
   {
-    name: "Unisex Saatler",
-    items: ["Minimalist Saatler", "Bilezikli Saatler", "Akıllı Saatler"],
+    name: "Unisex Watches",
+    items: ["Minimalist Watches", "Bracelet Watches", "Smart Watches"],
   },
   {
-    name: "Saat Aksesuarları",
-    items: ["Saat Kayışları", "Saat Kutuları", "Saat Temizleme Setleri"],
+    name: "Watch Accessories",
+    items: ["Watch Straps", "Watch Boxes", "Watch Cleaning Kits"],
   },
 ];
 
 export const glassesCategories = [
   {
-    name: "Erkek Gözlükleri",
+    name: "Men's Glasses",
     items: [
-      "Aviator Gözlükler",
-      "Yuvarlak Gözlükler",
-      "Kare Gözlükler",
-      "Spor Gözlükleri",
+      "Aviator Glasses",
+      "Round Glasses",
+      "Square Glasses",
+      "Sports Glasses",
     ],
   },
   {
-    name: "Kadın Gözlükleri",
-    items: ["Büyük Çerçeve Gözlükler", "Oval Gözlükler", "Güneş Gözlükleri"],
+    name: "Women's Glasses",
+    items: ["Large Frame Glasses", "Oval Glasses", "Sunglasses"],
   },
   {
-    name: "Çocuk Gözlükleri",
-    items: ["Çocuk Güneş Gözlükleri", "Eğlenceli Tasarımlar"],
+    name: "Kids' Glasses",
+    items: ["Kids' Sunglasses", "Fun Designs"],
   },
   {
-    name: "Gözlük Aksesuarları",
-    items: ["Gözlük Kabı", "Gözlük Temizleme Setleri", "Lens Temizleme Spreyi"],
+    name: "Glasses Accessories",
+    items: ["Glasses Case", "Glasses Cleaning Kits", "Lens Cleaning Spray"],
   },
 ];
