@@ -10,7 +10,7 @@ import DropdownMenu from "./DropdownMenu";
 const Navbar = () => {
   return (
     <nav>
-      <ul className="flex gap-8 text-sm">
+      <ul className="flex gap-8 text-xl">
         <DropdownMenu title="Çanta" subcategories={bagCategories} />
         <DropdownMenu title="Cüzdan" subcategories={walletCategories} />
         <DropdownMenu title="Kemer" subcategories={beltCategories} />
