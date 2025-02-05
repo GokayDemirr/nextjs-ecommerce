@@ -12,7 +12,7 @@ const DropdownMenu = ({ title, subcategories }) => {
     >
       {title}
       {isOpen && (
-        <div className="absolute cursor-default bg-white shadow-xl rounded-lg p-4 flex gap-12">
+        <div className="absolute z-2 cursor-default bg-white shadow-xl rounded-lg p-4 flex gap-12">
           {subcategories.map((category, index) => (
             <div key={index}>
               <h3 className="text-black font-bold mb-2 whitespace-nowrap border-b-2">
