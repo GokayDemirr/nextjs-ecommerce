@@ -3,7 +3,7 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 const WishlistButton = () => {
   return (
     <button className="transition-all cursor-pointer hover:text-teal-400 hover:scale-120">
-      <FavoriteBorderOutlinedIcon fontSize="large" />
+      <FavoriteBorderOutlinedIcon />
     </button>
   );
 };

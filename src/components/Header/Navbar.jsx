@@ -10,12 +10,12 @@ import DropdownMenu from "./DropdownMenu";
 const Navbar = () => {
   return (
     <nav>
-      <ul className="flex gap-8 text-xl">
-        <DropdownMenu title="Çanta" subcategories={bagCategories} />
-        <DropdownMenu title="Cüzdan" subcategories={walletCategories} />
-        <DropdownMenu title="Kemer" subcategories={beltCategories} />
-        <DropdownMenu title="Gözlük" subcategories={glassesCategories} />
-        <DropdownMenu title="Saat" subcategories={watchCategories} />
+      <ul className="flex gap-16 ">
+        <DropdownMenu title="Bags" subcategories={bagCategories} />
+        <DropdownMenu title="Wallets" subcategories={walletCategories} />
+        <DropdownMenu title="Belts" subcategories={beltCategories} />
+        <DropdownMenu title="Glasses" subcategories={glassesCategories} />
+        <DropdownMenu title="Watches" subcategories={watchCategories} />
       </ul>
     </nav>
   );
