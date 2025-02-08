@@ -1,10 +1,12 @@
-import Carousel from "@/components/Hero/Carousel";
+import CategoryCards from "@/components/Home/CategoryCards";
+import Carousel from "@/components/Home/Hero/Carousel";
 
 const Home = () => {
   return (
-    <>
-      <Carousel /> <div className="relative">hey</div>
-    </>
+    <div className="flex flex-col items-center">
+      <Carousel />
+      <CategoryCards />
+    </div>
   );
 };
 

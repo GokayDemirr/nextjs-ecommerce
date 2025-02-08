@@ -24,7 +24,6 @@ const Carousel = () => {
         alt={`${carouselImages[currentIndex].title} ${carouselImages[currentIndex].description}`}
         width={1900}
         height={693}
-        layout="responsive"
         className="object-cover"
       />
 
