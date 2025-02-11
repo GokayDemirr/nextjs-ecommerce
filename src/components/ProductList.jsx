@@ -1,9 +1,9 @@
 "use client";
-import { products } from "@/data/products";
+import { products } from "@/data/trendingProducts";
 import ProductCard from "./ProductCard";
 import { useState } from "react";
 
-const ProductList = () => {
+const ProductList = ({ products }) => {
   const [visibleProducts, setVisibleProducts] = useState(8);
 
   const loadMore = () => {
