@@ -13,7 +13,7 @@ const ProductList = () => {
   return (
     <div className="flex flex-col gap-8">
       <div className="grid grid-cols-4 overflow-hidden gap-6">
-        {products.map((product) => (
+        {products.slice(0, visibleProducts).map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
