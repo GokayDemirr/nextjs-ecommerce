@@ -1,3 +1,4 @@
+import { trendingProducts } from "@/data/TrendingProducts";
 import ProductList from "./ProductList";
 
 const TrendingProducts = () => {
@@ -12,7 +13,7 @@ const TrendingProducts = () => {
         Top View in this week
       </div>
 
-      <ProductList />
+      <ProductList products={trendingProducts} />
     </div>
   );
 };
