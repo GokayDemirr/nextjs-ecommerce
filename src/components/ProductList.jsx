@@ -1,5 +1,4 @@
 "use client";
-import { products } from "@/data/trendingProducts";
 import ProductCard from "./ProductCard";
 import { useState } from "react";
 
