@@ -16,6 +16,7 @@
     "@mui/material": "^6.4.2",
     "@tailwindcss/postcss": "^4.0.3",
     "next": "15.1.6",
+    "pg": "^8.13.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

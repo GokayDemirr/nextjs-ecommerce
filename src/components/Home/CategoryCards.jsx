@@ -3,7 +3,7 @@ import { categoryImages } from "@/data/categoryImages";
 const CategoryCards = () => {
   return (
     <div className="max-w-screen-xl">
-      <div className="grid grid-cols-4 gap-10 p-8">
+      <div className="grid grid-cols-4 gap-10 pt-8">
         {categoryImages.map((category, index) => (
           <div
             key={index}
