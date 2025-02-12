@@ -23,6 +23,7 @@ const ProductCard = ({ product }) => {
           alt={product.name}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
+          className="cursor-pointer"
         />
 
         <div className="absolute top-3 left-3">
@@ -36,7 +37,7 @@ const ProductCard = ({ product }) => {
       </div>
 
       <div className="font-semibold flex gap-1 items-center">
-        <span className="text-sm"> {product.name} </span>
+        <span className="text-sm cursor-pointer"> {product.name} </span>
         <span className="text-red-400 text-xs">{product.isNew && "NEW!"}</span>
       </div>
       <div className="flex justify-between">
