@@ -5,24 +5,22 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 
 const Footer = () => {
   return (
-    <footer className="max-w-screen-xl pt-20 w-full ">
-      <div className="flex flex-wrap justify-between">
+    <footer className="max-w-screen-xl pt-20 px-8 w-full mx-auto mb-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:place-items-center ">
         <div className="w-1/5">
-          <ul className="flex flex-col gap-6 ">
+          <ul className="flex flex-col gap-4 ">
             <Logo />
             <li className="flex items-center gap-4">
               <LocationOnIcon />
-              <div className="text-gray-500">
-                Yenimahalle Fatih Caddesi Çayırova/Kocaeli
-              </div>
+              <div className="text-gray-500">Map</div>
             </li>
             <li className="flex items-center gap-4">
               <EmailIcon />
-              <div className="text-gray-500">gokaydemirpc@gmail.com</div>
+              <div className="text-gray-500">Mail</div>
             </li>{" "}
             <li className="flex items-center gap-4">
               <LocalPhoneIcon />
-              <div className="text-gray-500">+850 425 75 53</div>
+              <div className="text-gray-500">Phone</div>
             </li>
           </ul>
         </div>

@@ -1,9 +1,9 @@
-import { trendingProducts } from "@/data/TrendingProducts";
+import { trendingProducts } from "@/data/trendingProducts";
 import ProductList from "./ProductList";
 
 const TrendingProducts = () => {
   return (
-    <div className="max-w-screen-xl pt-20">
+    <div className="max-w-screen-xl pt-20 px-8">
       <div className="flex items-center justify-center ">
         <div className="w-14 h-[2px] bg-black rounded-lg"></div>
         <div className="mx-4 text-2xl font-semibold">TRENDING</div>

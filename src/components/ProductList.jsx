@@ -11,7 +11,7 @@ const ProductList = ({ products }) => {
 
   return (
     <div className="flex flex-col gap-8">
-      <div className="grid grid-cols-4 overflow-hidden gap-6">
+      <div className="grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 overflow-hidden gap-12">
         {products.slice(0, visibleProducts).map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
