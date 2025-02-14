@@ -17,7 +17,7 @@ export const trendingProducts = [
     name: "Analogue Resin Strap",
     image: "/images/productImages/product1-front.webp",
     images: [
-      "/images/productImages/product1-front.webp",
+      "/images/categoryImages/bag.avif",
       "/images/productImages/product1-side.webp",
     ],
     price: 30,
